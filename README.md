@@ -6,7 +6,7 @@ This repository contains a simple `ILoggerProvider` implementation which sends a
 
 This logging provider can be used from anywhere which supports .NET Standard 1.5 or above. To get started just install the NuGet package:
 
-    > Install-Package Jmw.Log4netProvider
+    > Install-Package Jmw.Log4netProviderFork
 
 To add the Log4Net provider to your logging repository add the following to your `Configure` method:
 
@@ -26,5 +26,9 @@ lr.AddLog4Net("logging.config")
   .AddLog4Net(new FileInfo("log.conf"))
   .AddLog4Net(new FileInfo("log.conf"), true));
 ```
+
+## Bleeding Edge Builds
+
+The latest builds are available as pre-release packages from `https://ci.appveyor.com/nuget/log4netprovider-91kex3llaig0`. Only use these if you _really_ know what you're doing though. No guarantees are made.
 
  [log4net]: https://logging.apache.org/log4net/
