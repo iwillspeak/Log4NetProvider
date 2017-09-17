@@ -4,18 +4,17 @@
     <Description>Log4Net provider for Net.Core logging system</Description>
     <AssemblyTitle>Log4NetProvider</AssemblyTitle>
     <VersionPrefix>1.0.2.0</VersionPrefix>
-    <Authors>Jean-Marc Weeger</Authors>
+    <Authors>Jean-Marc Weeger,Will Speak</Authors>
     <TargetFramework>netstandard1.5</TargetFramework>
     <DebugType>portable</DebugType>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>Jmw.Log4NetProvider</AssemblyName>
-    <PackageId>Jmw.Log4NetProvider</PackageId>
-    <PackageReleaseNotes>Removing Stylecop dependency</PackageReleaseNotes>
-    <PackageIconUrl>https://jmw-fr.github.io/VarChecker/images/varchecker.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/jmw-fr/Log4NetProvider</PackageProjectUrl>
+    <AssemblyName>Jmw.Log4NetProviderFork</AssemblyName>
+    <PackageId>Jmw.Log4NetProviderFork</PackageId>
+    <PackageReleaseNotes>Fork of jmw/Log4netProvider</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/iwillspeak/Log4NetProvider</PackageProjectUrl>
     <PackageLicenseUrl>https://opensource.org/licenses/mit-license.php</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/jmw-fr/VarChecker</RepositoryUrl>
+    <RepositoryUrl>https://github.com/iwillspeak/Log4NetProvider</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
