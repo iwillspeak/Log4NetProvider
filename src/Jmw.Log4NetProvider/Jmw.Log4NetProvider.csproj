@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Description>Log4Net provider for Net.Core logging system</Description>
     <AssemblyTitle>Log4NetProvider</AssemblyTitle>
-    <VersionPrefix>1.0.2.0</VersionPrefix>
+    <VersionPrefix>1.1.0</VersionPrefix>
     <Authors>Jean-Marc Weeger,Will Speak</Authors>
     <TargetFramework>netstandard1.5</TargetFramework>
     <DebugType>portable</DebugType>
