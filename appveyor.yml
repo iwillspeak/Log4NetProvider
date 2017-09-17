@@ -1,16 +1,12 @@
-version: '1.1.0-{build}'
+version: 'pre{build}'
 image: Visual Studio 2017
-dotnet_csproj:
-  patch: true
-  file: '**\*.csproj'
-  version: '{version}'
-  package_version: '{version}'
+skip_branch_with_pr: true
 install:
   - dotnet --version
   - dotnet restore
 build_script:
   - dotnet build
-  - dotnet pack --configuration Release -o artifacts_nuget
+  - ps: dotnet pack --version-suffix=${env:APPVEYOR_REPO_BRANCH}-${env:APPVEYOR_BUILD_NUMBER} --configuration Release -o artifacts_nuget
 test_script:
   - ps: ForEach ($proj in (Get-ChildItem -Path test -Recurse -Filter '*.csproj')) { dotnet test --no-build $proj.FullName }
 artifacts:
