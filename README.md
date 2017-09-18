@@ -1,5 +1,7 @@
 # Log4Net ASP .NET Core Logger Provider
 
+[![Build status](https://ci.appveyor.com/api/projects/status/qd1ofsdky7anj2nk?svg=true)](https://ci.appveyor.com/project/iwillspeak/log4netprovider)
+
 This repository contains a simple `ILoggerProvider` implementation which sends all log messages to [Log4Net][log4net].
 
 ## Getting Started
