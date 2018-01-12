@@ -6,7 +6,7 @@ This repository contains a simple `ILoggerProvider` implementation which sends a
 
 ## Getting Started
 
-This logging provider can be used from anywhere which supports .NET Standard 1.5 or above. To get started just install the NuGet package:
+This logging provider can be used from anywhere which supports .NET Standard 2.0 or above. To get started just install the NuGet package:
 
     > Install-Package Jmw.Log4netProviderFork
 
