@@ -4,7 +4,7 @@
     <Description>This project is no longer maintained. It is suggested you use Microsoft.Extensions.Logging.Log4Net.AspNetCore (https://www.nuget.org/packages/Microsoft.Extensions.Logging.Log4Net.AspNetCore/) instead.
 	Log4Net provider for Net.Core logging system.</Description>
     <AssemblyTitle>Log4NetProvider</AssemblyTitle>
-    <VersionPrefix>2.0.0</VersionPrefix>
+    <VersionPrefix>2.0.1</VersionPrefix>
     <Authors>Jean-Marc Weeger,Will Speak</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <DebugType>portable</DebugType>
