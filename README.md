@@ -4,6 +4,10 @@
 
 This repository contains a simple `ILoggerProvider` implementation which sends all log messages to [Log4Net][log4net].
 
+## ⚠️ Deprecation Warning ⚠️
+
+This project is no longer maintained. It is suggested that you use [Microsoft.Extensions.Logging.Log4Net.AspNetCore](https://www.nuget.org/packages/Microsoft.Extensions.Logging.Log4Net.AspNetCore) instead.
+
 ## Getting Started
 
 This logging provider can be used from anywhere which supports .NET Standard 2.0 or above. To get started just install the NuGet package:
